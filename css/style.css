@@ -1,0 +1,27 @@
+section{
+    margin: 10vh;
+    transition: 1s;
+    opacity: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 3vh;
+    transition: 0.5s 0.5s;
+    opacity: 0;
+}
+
+p{
+    transition: 0.5s 0.9s;
+    opacity: 0;
+}
+
+
+section.active h2,
+section.active p {
+    opacity: 1;
+}
+
+section.active{
+    opacity: 1;
+}
